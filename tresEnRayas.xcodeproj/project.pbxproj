@@ -14,6 +14,9 @@
 		1C29975E1DE7613C00CD5714 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C29975C1DE7613C00CD5714 /* LaunchScreen.storyboard */; };
 		1C2997691DE7613C00CD5714 /* tresEnRayasTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C2997681DE7613C00CD5714 /* tresEnRayasTests.swift */; };
 		1C2997741DE7613C00CD5714 /* tresEnRayasUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C2997731DE7613C00CD5714 /* tresEnRayasUITests.swift */; };
+		1C2997851DE764EE00CD5714 /* fichaAndroid.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1C2997821DE764EE00CD5714 /* fichaAndroid.jpg */; };
+		1C2997861DE764EE00CD5714 /* fichaApple.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C2997831DE764EE00CD5714 /* fichaApple.png */; };
+		1CA6E7741DEE02EA0084622B /* 3raya.gif in Resources */ = {isa = PBXBuildFile; fileRef = 1CA6E7731DEE02EA0084622B /* 3raya.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		1C29976F1DE7613C00CD5714 /* tresEnRayasUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tresEnRayasUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C2997731DE7613C00CD5714 /* tresEnRayasUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tresEnRayasUITests.swift; sourceTree = "<group>"; };
 		1C2997751DE7613C00CD5714 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C2997821DE764EE00CD5714 /* fichaAndroid.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fichaAndroid.jpg; sourceTree = "<group>"; };
+		1C2997831DE764EE00CD5714 /* fichaApple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fichaApple.png; sourceTree = "<group>"; };
+		1CA6E7731DEE02EA0084622B /* 3raya.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 3raya.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +87,9 @@
 				1C2997671DE7613C00CD5714 /* tresEnRayasTests */,
 				1C2997721DE7613C00CD5714 /* tresEnRayasUITests */,
 				1C2997511DE7613C00CD5714 /* Products */,
+				1C2997821DE764EE00CD5714 /* fichaAndroid.jpg */,
+				1C2997831DE764EE00CD5714 /* fichaApple.png */,
+				1CA6E7731DEE02EA0084622B /* 3raya.gif */,
 			);
 			sourceTree = "<group>";
 		};
@@ -233,8 +242,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				1C29975E1DE7613C00CD5714 /* LaunchScreen.storyboard in Resources */,
+				1C2997861DE764EE00CD5714 /* fichaApple.png in Resources */,
 				1C29975B1DE7613C00CD5714 /* Assets.xcassets in Resources */,
+				1CA6E7741DEE02EA0084622B /* 3raya.gif in Resources */,
 				1C2997591DE7613C00CD5714 /* Main.storyboard in Resources */,
+				1C2997851DE764EE00CD5714 /* fichaAndroid.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -503,6 +515,7 @@
 				1C29977A1DE7613C00CD5714 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1C29977B1DE7613C00CD5714 /* Build configuration list for PBXNativeTarget "tresEnRayasTests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +524,7 @@
 				1C29977D1DE7613C00CD5714 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1C29977E1DE7613C00CD5714 /* Build configuration list for PBXNativeTarget "tresEnRayasUITests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +533,7 @@
 				1C2997801DE7613C00CD5714 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
